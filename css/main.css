@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+img {
+    vertical-align: middle;
+}
+.container {
+    width: 100%;
+    max-width: 1180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.visully-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    clip: rect(0,0,0,0);
+}
+.site-header {
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    padding: 18px 0;
+    background-color: rgb(91, 91, 239);
+}
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.menu-item {
+    margin-left: 22px;
+    
+
+}
+.menu-link {
+    color: #fff;
+    text-decoration: none;
+}
+.home {
+    padding-top: 86px;
+}
+.home:hover {
+    background-color: blanchedalmond;
+    color: gray;
+}
+.main-home-title {
+    color: aqua;
+    text-align: center;
+}
+.main-home-text {
+    color: green;
+    background-color: chartreuse;
+    border: 3px dashed blue ;
+}
+.services:hover {
+    background-color: blanchedalmond;
+    color: gray;
+}
+.main-services-title {
+    color: blueviolet;
+    text-align: center;
+}
+.main-services-text {
+    background-color:cyan;
+    border: 3px dashed red;
+}
+.team:hover{
+    background-color: pink;
+    color: blue;
+}
+.main-team-title {
+    color: red;
+    text-align: center;
+}
+.main-team-text {
+    background-color: bisque;
+    border: 3px dashed green;
+}
+.contact:hover {
+    background-color: grey;
+    color: whitesmoke;
+}
+.main-contact-title {
+    color: yellow;
+    text-align: center;
+}
+.main-contact-text {
+    border: 3px dashed whitesmoke;
+}
+.footer-to-up-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(253, 254, 255);
+    border: 1px solid black;
+    border-radius: 20px;
+}
